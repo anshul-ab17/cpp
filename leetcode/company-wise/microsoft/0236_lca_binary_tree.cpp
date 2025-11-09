@@ -1,0 +1,13 @@
+// LC 236. Lowest Common Ancestor of a Binary Tree | Medium | Microsoft, Meta
+struct TreeNode { int val; TreeNode *left, *right; TreeNode(int x) : val(x), left(nullptr), right(nullptr) {} };
+
+class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (!root || root == p || root == q) return root;
+        auto* left = lowestCommonAncestor(root->left, p, q);
+        auto* right = lowestCommonAncestor(root->right, p, q);
+        if (left && right) return root;
+        return left ? left : right;
+    }
+};
