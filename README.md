@@ -1,6 +1,6 @@
-# C++ & LeetCode Solutions
+# LeetCode Solutions
 
-A collection of LeetCode problems organized by topic, with daily POTD solutions.
+Structured LeetCode grind: Python (some C++) solutions across 25+ DSA topics, daily POTDs, and company-wise problem sets. Built from scratch as a self-learning project.
 
 ---
 
@@ -9,8 +9,9 @@ A collection of LeetCode problems organized by topic, with daily POTD solutions.
 ```
 cpp/
 └── leetcode/
-    ├── Daily-Question/              
+    ├── Daily-Question/
     │
+    ├── array-string/
     ├── binary-search/
     ├── bit-manipulation/
     ├── two-pointer/
@@ -19,9 +20,16 @@ cpp/
     ├── prefix-sum/
     │
     ├── strings/
+    │   └── algorithms/
     ├── linked-list/
     ├── stack-and-queues/
+    ├── monotonic-stack/
     ├── heap/
+    ├── intervals/
+    ├── greedy/
+    ├── design/
+    ├── math-geometry/
+    ├── advanced-ds/
     │
     ├── tree/
     │   ├── avl/
@@ -30,15 +38,19 @@ cpp/
     │   ├── fenwick/
     │   ├── heap/
     │   ├── red-black/
-    │   └── trie/
+    │   ├── segment-tree/
+    │   ├── trie/
+    │   └── union-find/
     │
     ├── graph/
+    │   ├── advanced/
     │   ├── bfs/
     │   └── dfs/
     │
     ├── dp/
     │   ├── 1d/
     │   ├── 2d/
+    │   ├── advanced/
     │   ├── bitmask/
     │   ├── game/
     │   ├── graph/
